@@ -18,7 +18,7 @@ update: setup
 
 .PHONY: run
 run: update
-	$(PYTHON_CMD) main.py
+	$(PYTHON_CMD) $(PROJECT_NAME)/main.py
 
 .PHONY: lint
 lint: update
